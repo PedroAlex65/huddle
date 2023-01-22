@@ -1,0 +1,117 @@
+.community {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 352px;
+    height: 176px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.0710768);
+    border-radius: 15px;
+    position: relative;
+    top: 51px;
+    left: 20px;
+}
+
+.community h2 {
+    text-align: center;
+    color: #00252e;
+    line-height: 30px;
+}
+
+.community button {
+    width: 200px;
+    height: 40px;
+    background-color: #ff52c1;
+    color: #fff;
+    border: none;
+    background: #FF52C1;
+    box-shadow: 0px 3px 7px rgba(0, 37, 46, 0.223053);
+    border-radius: 20px;
+    margin-top: 24px;
+}
+
+@media (min-width: 768px){
+   
+    .community {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        margin-left: 138px;
+        width: 500px;
+        height: 176px;
+    }
+    
+    .community h2 {
+        text-align: center;
+        color: #00252e;
+        line-height: 30px;
+    }
+    
+    .community button {
+        margin-top: 24px;
+        width: 250px;
+        height: 60px;
+    }
+}
+@media (min-width: 1280px) {
+    .community {
+        width: 800px;
+        margin-left: 28px;
+        height: 280px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.0710768);
+        border-radius: 15px;
+        position: relative;
+        top: 51px;
+        margin: 0 auto;
+    }
+    
+    .community h2 {
+        font-size: 32px;
+        text-align: center;
+        line-height: 60px;
+    }
+    
+    .community button {
+        width: 400px;
+        height: 80px;
+        background: #FF52C1;
+        border-radius: 40px;
+        font-size:25px;
+    }
+    
+}
+
+@media (min-width: 1440px) {
+    .community {
+        width: 800px;
+        margin-left: 28px;
+        height: 280px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.0710768);
+        border-radius: 15px;
+        position: relative;
+        top: 51px;
+        margin: 0 auto;
+    }
+    
+    .community h2 {
+        font-size: 32px;
+        text-align: center;
+        line-height: 60px;
+    }
+    
+    .community button {
+        width: 400px;
+        height: 80px;
+        background: #FF52C1;
+        border-radius: 40px;
+        font-size:25px ;
+    }
+    
+
+}
